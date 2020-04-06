@@ -1,0 +1,242 @@
+* {
+      box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+hr {
+    width: 15%;
+    margin: 100px auto;
+}
+
+h4 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: #2d3436;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h6 {
+  text-align: center;
+  padding-bottom: 15px;
+  margin: 100px;
+  color: #636e72;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/* Header */
+
+.bg {
+    background-image: url("../images/bg.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-text {
+    color: white; 
+    font-family: 'Dancing Script', cursive;
+    font-size: 4vw;
+    position: absolute;
+    left: 175px;
+    top: 250px;
+}
+
+
+
+/* About */
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.abt-txt {
+    margin: 100px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-family: 'Cairo', sans-serif;
+    text-align: justify;
+    text-justify: none;
+}
+
+/* Skills Div*/
+
+/* Create four equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .column2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 100%;
+  }
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row2 {
+  margin: 100px;
+}
+
+
+/* Project Particles Background */
+
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color:#1b4ac8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+canvas {
+  width: 100% ;
+  height: 100% ;
+  display: block;
+  vertical-align: bottom;
+}
+
+
+
+
+/* Particles Text */
+
+
+
+/* Project Cards */
+ .card {
+  margin-top: 120px;
+  position: relative;
+ }
+ 
+
+.row {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.card-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Contact Background */
+
+.contact {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  background-color: #f1f2f6;
+}
+
+.contact-img {
+  height: 100px;
+  margin: 25px;
+  display: flex;
+}
+
+/* Forms */
+
+.inputs {
+    padding: 8px;
+    margin: 10px;
+}
+
+.btn {
+  margin-bottom: 25px;
+}
+
+/* Footer */
+
+.foot {
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+}
+
+.bg2 {
+    background-image: url("../images/footer.png"); 
+    background-color: #f1f2f6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    min-height: 350px;
+    min-width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.foot-txt {
+  text-align: center;
+  margin: 20px;
+  margin-left: 75px;
+  margin-right: 75px;
+
+}
+
+/* Footer Buttons */
+
+.buttons {
+  padding-top: 175px;
+}
+
+.fab {
+  padding: 12px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 10px;
+  border-radius: 50%;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin-in {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #6c5ce7;
+  color: white;
+}
+
+/* Thank You Page */
+
+.particles-height {
+  max-height: 420px;
+}
